@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.grocery-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 300px;
+}
+
+.grocery-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.grocery-list li span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+form {
+  margin: 20px auto;
+  width: 300px;
+}
+
+input[type='text'] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
